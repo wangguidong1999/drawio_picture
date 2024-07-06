@@ -1,9 +1,60 @@
-<mxfile host="app.diagrams.net" modified="2024-07-04T14:26:13.648Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" version="24.6.4" etag="1hYpT22Ko7_vEp56SClt" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-06T06:33:51.600Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="LO9qQVMbJ5LTkYDHO2I9" version="24.6.4" type="github">
   <diagram name="第 1 页" id="AxjWF6Ku7yrT4dL_wFJU">
-    <mxGraphModel>
+    <mxGraphModel dx="625" dy="423" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="1VGL4c3osT2KlWnY2MBT-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="1VGL4c3osT2KlWnY2MBT-1" target="1VGL4c3osT2KlWnY2MBT-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="380" y="170" />
+              <mxPoint x="280" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1VGL4c3osT2KlWnY2MBT-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1VGL4c3osT2KlWnY2MBT-1" target="1VGL4c3osT2KlWnY2MBT-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="380" y="170" />
+              <mxPoint x="474" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1VGL4c3osT2KlWnY2MBT-1" value="应用程序源代码" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="310" y="120" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1VGL4c3osT2KlWnY2MBT-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1VGL4c3osT2KlWnY2MBT-2" target="1VGL4c3osT2KlWnY2MBT-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1VGL4c3osT2KlWnY2MBT-2" value="X86二进制程序" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="220" y="210" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1VGL4c3osT2KlWnY2MBT-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="1VGL4c3osT2KlWnY2MBT-3" target="1VGL4c3osT2KlWnY2MBT-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1VGL4c3osT2KlWnY2MBT-3" value="RISC-V二进制程序" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="414" y="210" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1VGL4c3osT2KlWnY2MBT-4" value="RISC-V硬件平台&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="200" y="270" width="360" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="1VGL4c3osT2KlWnY2MBT-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1VGL4c3osT2KlWnY2MBT-5" target="1VGL4c3osT2KlWnY2MBT-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1VGL4c3osT2KlWnY2MBT-19" value="&lt;span style=&quot;color: rgb(204, 0, 0); font-size: 13px;&quot;&gt;T&lt;/span&gt;&lt;font style=&quot;color: rgb(204, 0, 0); font-size: 9px;&quot;&gt;原生执行 &lt;/font&gt;&lt;font style=&quot;color: rgb(204, 0, 0); font-size: 13px;&quot;&gt;/&amp;nbsp;&lt;/font&gt;&lt;font color=&quot;#cc0000&quot; style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;T&lt;/span&gt;&lt;sub style=&quot;&quot;&gt;&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;二进制翻译&lt;/font&gt;&lt;sub style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp;&lt;/sub&gt;&lt;/font&gt;&lt;/sub&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&amp;gt;= 50%&lt;/span&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="1VGL4c3osT2KlWnY2MBT-17">
+          <mxGeometry x="0.0298" relative="1" as="geometry">
+            <mxPoint x="-8" y="30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1VGL4c3osT2KlWnY2MBT-5" value="二进制翻译系统" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="220" y="300" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1VGL4c3osT2KlWnY2MBT-6" value="原生执行" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="414" y="300" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1VGL4c3osT2KlWnY2MBT-15" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;相同编译器版本&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="333" y="166" width="90" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
