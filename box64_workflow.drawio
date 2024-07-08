@@ -1,13 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2024-07-04T14:22:00.380Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="gyzv79y3lF8A4sntML5s" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-08T06:42:27.102Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="tkd03fkdLkY1vCBrFOm0" version="24.6.4" type="github">
   <diagram name="第 1 页" id="S_cXRnAjtAU8uWQunCoB">
-    <mxGraphModel dx="3002" dy="721" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2607" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="YZil0p7yVioOztMhCc3v-10" value="int main(int argc, const char **argv, char **env)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1590" y="120" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="kstmkINUWU82yg2oxTPM-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="YZil0p7yVioOztMhCc3v-11" target="YZil0p7yVioOztMhCc3v-22">
+        <mxCell id="kstmkINUWU82yg2oxTPM-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="YZil0p7yVioOztMhCc3v-11" target="YZil0p7yVioOztMhCc3v-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YZil0p7yVioOztMhCc3v-11" value="initialize(argc, argv, env, &amp;amp;emu, &amp;amp;elf_header, 1)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -49,7 +49,7 @@
         <mxCell id="YZil0p7yVioOztMhCc3v-26" value="int emulate(x64emu_t* emu, elfheader_t* elf_header)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1030" y="210" width="330" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="kstmkINUWU82yg2oxTPM-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YZil0p7yVioOztMhCc3v-27" target="YZil0p7yVioOztMhCc3v-31">
+        <mxCell id="kstmkINUWU82yg2oxTPM-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="YZil0p7yVioOztMhCc3v-27" target="YZil0p7yVioOztMhCc3v-31" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YZil0p7yVioOztMhCc3v-27" value="Run(emu, 0)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -72,6 +72,48 @@
         </mxCell>
         <mxCell id="YZil0p7yVioOztMhCc3v-31" value="int Run(x64emu_t *emu, int step)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-700" y="314" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="n19XVrPwrBasf_fpUqeU-1" value="void* LinkNext(x64emu_t* emu, uintptr_t addr, void* x2, uintptr_t* x3)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-970" y="664" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="n19XVrPwrBasf_fpUqeU-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-700" y="664" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="n19XVrPwrBasf_fpUqeU-3" value="src/dynarec/dynarec.c" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-950" y="640" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="n19XVrPwrBasf_fpUqeU-4" value="//" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-895" y="689" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="n19XVrPwrBasf_fpUqeU-5" value="rv64_next" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1080" y="554" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="n19XVrPwrBasf_fpUqeU-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="n19XVrPwrBasf_fpUqeU-6" target="n19XVrPwrBasf_fpUqeU-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n19XVrPwrBasf_fpUqeU-6" value="LinkNext" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-910" y="554" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="n19XVrPwrBasf_fpUqeU-7" value="src/dynarec/rv64/rv64_next.S" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1080" y="530" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="n19XVrPwrBasf_fpUqeU-8" value="//" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-1005" y="579" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="n19XVrPwrBasf_fpUqeU-9" value="void setJumpTableDefault64(void* addr)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1445" y="454" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="n19XVrPwrBasf_fpUqeU-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="n19XVrPwrBasf_fpUqeU-10" target="n19XVrPwrBasf_fpUqeU-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n19XVrPwrBasf_fpUqeU-10" value="native_lock_store_dd(&amp;amp;box64_jmptbl3[idx3][idx2][idx1][idx0], (uintptr_t)native_next);" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1175" y="454" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="n19XVrPwrBasf_fpUqeU-11" value="src/custommem.c" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1415" y="430" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="n19XVrPwrBasf_fpUqeU-12" value="//&amp;nbsp; &amp;nbsp;src/dynarec/dynarec_next.h: #define native_next rv64_next" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-1450" y="479" width="350" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
