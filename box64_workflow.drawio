@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-08T07:22:22.620Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="f-K3oivfK6KUG5zBuSWL" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-08T07:58:07.628Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="dh249plb2uEDWy6J4OoC" version="24.6.4" type="github">
   <diagram name="第 1 页" id="S_cXRnAjtAU8uWQunCoB">
-    <mxGraphModel dx="2572" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2419" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -73,50 +73,50 @@
         <mxCell id="YZil0p7yVioOztMhCc3v-31" value="int Run(x64emu_t *emu, int step)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-700" y="314" width="270" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="n19XVrPwrBasf_fpUqeU-1" value="void* LinkNext(x64emu_t* emu, uintptr_t addr, void* x2, uintptr_t* x3)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-970" y="664" width="270" height="30" as="geometry" />
+        <mxCell id="n19XVrPwrBasf_fpUqeU-1" value="void* &lt;b&gt;LinkNext&lt;/b&gt;(x64emu_t* emu, uintptr_t addr, void* x2, uintptr_t* x3)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1250" y="664" width="270" height="30" as="geometry" />
         </mxCell>
         <mxCell id="n19XVrPwrBasf_fpUqeU-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="n19XVrPwrBasf_fpUqeU-2" target="n19XVrPwrBasf_fpUqeU-15">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-510" y="740" />
-              <mxPoint x="-750" y="740" />
-              <mxPoint x="-750" y="809" />
+              <mxPoint x="-790" y="740" />
+              <mxPoint x="-1030" y="740" />
+              <mxPoint x="-1030" y="809" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="n19XVrPwrBasf_fpUqeU-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="n19XVrPwrBasf_fpUqeU-2" target="n19XVrPwrBasf_fpUqeU-19">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-510" y="740" />
-              <mxPoint x="-750" y="740" />
-              <mxPoint x="-750" y="929" />
+              <mxPoint x="-790" y="740" />
+              <mxPoint x="-1030" y="740" />
+              <mxPoint x="-1030" y="929" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="n19XVrPwrBasf_fpUqeU-2" value="dynablock_t* db = &lt;b&gt;FindDynablockFromNativeAddress&lt;/b&gt;(x2-4);&lt;div&gt;block = &lt;b&gt;DBGetBlock&lt;/b&gt;(emu, addr, 1, is32bits);&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-700" y="664" width="380" height="30" as="geometry" />
+          <mxGeometry x="-980" y="664" width="380" height="30" as="geometry" />
         </mxCell>
         <mxCell id="n19XVrPwrBasf_fpUqeU-3" value="src/dynarec/dynarec.c" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-950" y="640" width="140" height="30" as="geometry" />
+          <mxGeometry x="-1230" y="640" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="n19XVrPwrBasf_fpUqeU-4" value="//" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="-895" y="689" width="30" height="30" as="geometry" />
+          <mxGeometry x="-1175" y="689" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="n19XVrPwrBasf_fpUqeU-5" value="&lt;div&gt;void rv64_next(void) EXPORTDYN;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1080" y="554" width="170" height="30" as="geometry" />
+        <mxCell id="n19XVrPwrBasf_fpUqeU-5" value="&lt;div&gt;void &lt;b&gt;rv64_next&lt;/b&gt;(void) EXPORTDYN;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1250" y="555" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="n19XVrPwrBasf_fpUqeU-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="n19XVrPwrBasf_fpUqeU-6" target="n19XVrPwrBasf_fpUqeU-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="n19XVrPwrBasf_fpUqeU-6" value="LinkNext" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="-910" y="554" width="170" height="30" as="geometry" />
+          <mxGeometry x="-1080" y="555" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="n19XVrPwrBasf_fpUqeU-7" value="src/dynarec/rv64/rv64_next.S" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-1080" y="530" width="180" height="30" as="geometry" />
+          <mxGeometry x="-1250" y="531" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="n19XVrPwrBasf_fpUqeU-8" value="//&amp;nbsp;src/dynarec/dynarec_next.h" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="-1080" y="579" width="180" height="30" as="geometry" />
+          <mxGeometry x="-1250" y="579" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="n19XVrPwrBasf_fpUqeU-9" value="void setJumpTableDefault64(void* addr)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1445" y="454" width="270" height="30" as="geometry" />
@@ -130,32 +130,32 @@
         <mxCell id="n19XVrPwrBasf_fpUqeU-11" value="src/custommem.c" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-1415" y="430" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="n19XVrPwrBasf_fpUqeU-12" value="//&amp;nbsp; &amp;nbsp;src/dynarec/dynarec_next.h: #define native_next rv64_next" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="-1450" y="479" width="350" height="30" as="geometry" />
+        <mxCell id="n19XVrPwrBasf_fpUqeU-12" value="//&amp;nbsp; &amp;nbsp;src/dynarec/dynarec_next.h: #define &lt;b&gt;native_next &lt;/b&gt;rv64_next" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-1455" y="479" width="360" height="30" as="geometry" />
         </mxCell>
         <mxCell id="n19XVrPwrBasf_fpUqeU-15" value="dynablock_t* FindDynablockFromNativeAddress(void* p)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-700" y="794" width="270" height="30" as="geometry" />
+          <mxGeometry x="-980" y="794" width="270" height="30" as="geometry" />
         </mxCell>
         <mxCell id="n19XVrPwrBasf_fpUqeU-16" value="blockmark_t* n = NEXT_BLOCK(sub);" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="-430" y="794" width="280" height="30" as="geometry" />
+          <mxGeometry x="-710" y="794" width="280" height="30" as="geometry" />
         </mxCell>
         <mxCell id="n19XVrPwrBasf_fpUqeU-17" value="src/custommem.c" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-670" y="770" width="120" height="30" as="geometry" />
+          <mxGeometry x="-950" y="770" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="n19XVrPwrBasf_fpUqeU-18" value="//" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="-625" y="819" width="30" height="30" as="geometry" />
+          <mxGeometry x="-905" y="819" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="n19XVrPwrBasf_fpUqeU-19" value="dynablock_t* DBGetBlock(x64emu_t* emu, uintptr_t addr, int create, int is32bits)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-710" y="914" width="270" height="30" as="geometry" />
+          <mxGeometry x="-990" y="914" width="270" height="30" as="geometry" />
         </mxCell>
         <mxCell id="n19XVrPwrBasf_fpUqeU-20" value="dynablock_t *db = internalDBGetBlock(emu, addr, addr, create, 1, is32bits);" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-440" y="914" width="280" height="30" as="geometry" />
+          <mxGeometry x="-720" y="914" width="280" height="30" as="geometry" />
         </mxCell>
         <mxCell id="n19XVrPwrBasf_fpUqeU-21" value="src/dynarec/dynablock.c" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-695" y="890" width="150" height="30" as="geometry" />
+          <mxGeometry x="-975" y="890" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="n19XVrPwrBasf_fpUqeU-22" value="//" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="-635" y="939" width="30" height="30" as="geometry" />
+          <mxGeometry x="-915" y="939" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
