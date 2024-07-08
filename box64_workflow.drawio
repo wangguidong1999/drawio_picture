@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-08T07:04:02.493Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="XDX3zCr0u6joyQZX7ax9" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-08T07:08:21.254Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="wsuFj9cyYwGxz-2qNuF-" version="24.6.4" type="github">
   <diagram name="第 1 页" id="S_cXRnAjtAU8uWQunCoB">
     <mxGraphModel dx="2607" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -114,6 +114,30 @@
         </mxCell>
         <mxCell id="n19XVrPwrBasf_fpUqeU-12" value="//&amp;nbsp; &amp;nbsp;src/dynarec/dynarec_next.h: #define native_next rv64_next" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="-1450" y="479" width="350" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="n19XVrPwrBasf_fpUqeU-15" value="dynablock_t* FindDynablockFromNativeAddress(void* p)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-700" y="794" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="n19XVrPwrBasf_fpUqeU-16" value="blockmark_t* n = NEXT_BLOCK(sub);" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-430" y="794" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="n19XVrPwrBasf_fpUqeU-17" value="src/custommem.c" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-670" y="770" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="n19XVrPwrBasf_fpUqeU-18" value="//" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-625" y="819" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="n19XVrPwrBasf_fpUqeU-19" value="dynablock_t* DBGetBlock(x64emu_t* emu, uintptr_t addr, int create, int is32bits)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-710" y="914" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="n19XVrPwrBasf_fpUqeU-20" value="dynablock_t *db = internalDBGetBlock(emu, addr, addr, create, 1, is32bits);" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-440" y="914" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="n19XVrPwrBasf_fpUqeU-21" value="src/dynarec/dynablock.c" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-695" y="890" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="n19XVrPwrBasf_fpUqeU-22" value="//" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-635" y="939" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
