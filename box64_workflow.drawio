@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-08T06:42:27.102Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="tkd03fkdLkY1vCBrFOm0" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-08T07:04:02.493Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="XDX3zCr0u6joyQZX7ax9" version="24.6.4" type="github">
   <diagram name="第 1 页" id="S_cXRnAjtAU8uWQunCoB">
     <mxGraphModel dx="2607" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -85,13 +85,13 @@
         <mxCell id="n19XVrPwrBasf_fpUqeU-4" value="//" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="-895" y="689" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="n19XVrPwrBasf_fpUqeU-5" value="rv64_next" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="n19XVrPwrBasf_fpUqeU-5" value="&lt;div&gt;void rv64_next(void) EXPORTDYN;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1080" y="554" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="n19XVrPwrBasf_fpUqeU-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="n19XVrPwrBasf_fpUqeU-6" target="n19XVrPwrBasf_fpUqeU-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="n19XVrPwrBasf_fpUqeU-6" value="LinkNext" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="n19XVrPwrBasf_fpUqeU-6" value="LinkNext" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-910" y="554" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="n19XVrPwrBasf_fpUqeU-7" value="src/dynarec/rv64/rv64_next.S" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
